@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameCharacter.h"
+#include "FPSCharacter.h"
 #include "GameFramework/GameModeBase.h"
 #include "ParkourGamemode.generated.h"
 

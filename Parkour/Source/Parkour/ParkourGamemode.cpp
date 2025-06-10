@@ -5,5 +5,5 @@
 
 AParkourGamemode::AParkourGamemode()
 {
-	DefaultPawnClass = AGameCharacter::StaticClass();
+	DefaultPawnClass = AFPSCharacter::StaticClass();
 }

@@ -33,6 +33,12 @@
     <ClInclude Include="..\..\Source\Parkour\DummyClass.h">
       <Filter>Source\Parkour</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Parkour\FPSCharacter.cpp">
+      <Filter>Source\Parkour</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Parkour\FPSCharacter.h">
+      <Filter>Source\Parkour</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Parkour\GameCharacter.cpp">
       <Filter>Source\Parkour</Filter>
     </ClCompile>

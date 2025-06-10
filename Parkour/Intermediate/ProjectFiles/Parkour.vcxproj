@@ -258,6 +258,10 @@
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
     <ClInclude Include="..\..\Source\Parkour\DummyClass.h"/>
+    <ClCompile Include="..\..\Source\Parkour\FPSCharacter.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Parkour\FPSCharacter.h"/>
     <ClCompile Include="..\..\Source\Parkour\GameCharacter.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>

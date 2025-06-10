@@ -3,6 +3,7 @@
 	{
 		"Module.Parkour.gen.cpp.obj": [
 			"ParkourGamemode.gen.cpp.obj",
+			"FPSCharacter.gen.cpp.obj",
 			"GameCharacter.gen.cpp.obj",
 			"Parkour.init.gen.cpp.obj"
 		]
