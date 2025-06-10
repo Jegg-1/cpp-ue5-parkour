@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Projekty\\cpp-proj\\Parkour\\Source\\Parkour\\Parkour.Build.cs",
+		"D:\\Projekty\\cpp-proj\\Parkour\\Source\\Parkour.Target.cs",
+		"D:\\Projekty\\cpp-proj\\Parkour\\Source\\ParkourEditor.Target.cs"
+	],
+	"EngineVersion": "5.6.0"
+}

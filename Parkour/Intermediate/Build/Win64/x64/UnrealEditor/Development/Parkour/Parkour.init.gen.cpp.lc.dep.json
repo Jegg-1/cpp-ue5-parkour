@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\projekty\\cpp-proj\\parkour\\intermediate\\build\\win64\\unrealeditor\\inc\\parkour\\uht\\parkour.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\projekty\\cpp-proj\\parkour\\intermediate\\build\\win64\\x64\\parkoureditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\projekty\\cpp-proj\\parkour\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\parkour\\definitions.parkour.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

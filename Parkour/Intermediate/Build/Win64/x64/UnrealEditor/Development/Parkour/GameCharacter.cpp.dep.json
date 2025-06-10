@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\projekty\\cpp-proj\\parkour\\source\\parkour\\gamecharacter.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\projekty\\cpp-proj\\parkour\\intermediate\\build\\win64\\x64\\parkoureditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\projekty\\cpp-proj\\parkour\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\parkour\\definitions.parkour.h",
+            "d:\\projekty\\cpp-proj\\parkour\\source\\parkour\\gamecharacter.h",
+            "d:\\programy\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\capsulecomponent.h",
+            "d:\\programy\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\programy\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "d:\\programy\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\capsulecomponent.generated.h",
+            "d:\\programy\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
+            "d:\\programy\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h",
+            "d:\\projekty\\cpp-proj\\parkour\\intermediate\\build\\win64\\unrealeditor\\inc\\parkour\\uht\\gamecharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\projekty\\cpp-proj\\parkour\\source\\parkour\\parkourgamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\projekty\\cpp-proj\\parkour\\intermediate\\build\\win64\\x64\\parkoureditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\projekty\\cpp-proj\\parkour\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\parkour\\definitions.parkour.h",
+            "d:\\projekty\\cpp-proj\\parkour\\source\\parkour\\parkourgamemode.h",
+            "d:\\programy\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\programy\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\programy\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\programy\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\projekty\\cpp-proj\\parkour\\intermediate\\build\\win64\\unrealeditor\\inc\\parkour\\uht\\parkourgamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
