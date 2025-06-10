@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeParkour_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x8120DA80,
+				0xFE2E0949,
 				0x938EC07B,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeParkour_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_Parkour.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Parkour(Z_Construct_UPackage__Script_Parkour, TEXT("/Script/Parkour"), Z_Registration_Info_UPackage__Script_Parkour, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x8120DA80, 0x938EC07B));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Parkour(Z_Construct_UPackage__Script_Parkour, TEXT("/Script/Parkour"), Z_Registration_Info_UPackage__Script_Parkour, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xFE2E0949, 0x938EC07B));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

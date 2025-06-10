@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Parkour.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:/Projekty/cpp-proj/Parkour/Intermediate/Build/Win64/x64/ParkourEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"D:/Projekty/cpp-proj/Parkour/Intermediate/Build/Win64/x64/UnrealEditor/Development/Parkour/Module.Parkour.gen.cpp.obj"
+"D:/Projekty/cpp-proj/Parkour/Intermediate/Build/Win64/x64/UnrealEditor/Development/Parkour/Parkour.cpp.obj"
+"D:/Projekty/cpp-proj/Parkour/Intermediate/Build/Win64/x64/UnrealEditor/Development/Parkour/ParkourGamemode.cpp.obj"
+"D:/Projekty/cpp-proj/Parkour/Intermediate/Build/Win64/x64/UnrealEditor/Development/Parkour/PerModuleInline.gen.cpp.obj"
+"D:/Projekty/cpp-proj/Parkour/Intermediate/Build/Win64/x64/UnrealEditor/Development/Parkour/GameCharacter.cpp.obj"
+"D:/Projekty/cpp-proj/Parkour/Intermediate/Build/Win64/x64/UnrealEditor/Development/Parkour/Default.rc2.res"
+/OUT:"D:/Projekty/cpp-proj/Parkour/Intermediate/Build/Win64/x64/UnrealEditor/Development/Parkour/UnrealEditor-Parkour.lib"

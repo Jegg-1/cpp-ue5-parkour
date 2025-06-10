@@ -19,7 +19,7 @@ public:
 	AGameCharacter();
 
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	virtual void Tick(float deltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
@@ -28,6 +28,11 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	double gravity = 600;
+	double jumpVelocity = -300.0;
+	double fallVelocity = 0.0;
+	bool grounded = false;
+
 	FVector moveInput;
 	FVector rotInput;
 
@@ -35,7 +40,10 @@ protected:
 	FRotator controlRotator;
 
 	UPROPERTY(EditAnywhere)
-	float moveSpeed = 60.0f;
+	float moveSpeed = 300.f;
+
+	UPROPERTY(EditAnywhere)
+	FVector cameraRotationOffset = FVector(0.0, 180.0, 0.0);
 
 	UPROPERTY(VisibleAnywhere)
 	UCapsuleComponent* capsuleComponent;
@@ -50,4 +58,10 @@ protected:
 	void InputVertical(float value);
 	void InputMouseX(float value);
 	void InputMouseY(float value);
+
+	void Jump();
+
+	void UpdatePosition(float deltaTime);
+	void UpdateRotation(float deltaTime);
+
 };
