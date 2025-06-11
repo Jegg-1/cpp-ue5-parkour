@@ -33,6 +33,24 @@
     <ClInclude Include="..\..\Source\Parkour\DummyClass.h">
       <Filter>Source\Parkour</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Parkour\EndGate.cpp">
+      <Filter>Source\Parkour</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Parkour\EndGate.h">
+      <Filter>Source\Parkour</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Parkour\EndScreenGamemode.cpp">
+      <Filter>Source\Parkour</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Parkour\EndScreenGamemode.h">
+      <Filter>Source\Parkour</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Parkour\EndScreenWidget.cpp">
+      <Filter>Source\Parkour</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Parkour\EndScreenWidget.h">
+      <Filter>Source\Parkour</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Parkour\FPSCharacter.cpp">
       <Filter>Source\Parkour</Filter>
     </ClCompile>
@@ -54,10 +72,22 @@
     <ClInclude Include="..\..\Source\Parkour\Parkour.h">
       <Filter>Source\Parkour</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Parkour\ParkourGameInstance.cpp">
+      <Filter>Source\Parkour</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Parkour\ParkourGameInstance.h">
+      <Filter>Source\Parkour</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Parkour\ParkourGamemode.cpp">
       <Filter>Source\Parkour</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Parkour\ParkourGamemode.h">
+      <Filter>Source\Parkour</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Parkour\StartGate.cpp">
+      <Filter>Source\Parkour</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Parkour\StartGate.h">
       <Filter>Source\Parkour</Filter>
     </ClInclude>
   </ItemGroup>

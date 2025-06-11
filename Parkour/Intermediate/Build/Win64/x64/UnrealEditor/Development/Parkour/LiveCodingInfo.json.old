@@ -2,10 +2,15 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Parkour.gen.cpp.obj": [
+			"EndScreenGamemode.gen.cpp.obj",
 			"FPSCharacter.gen.cpp.obj",
-			"ParkourGamemode.gen.cpp.obj",
 			"GameCharacter.gen.cpp.obj",
-			"Parkour.init.gen.cpp.obj"
+			"EndGate.gen.cpp.obj",
+			"EndScreenWidget.gen.cpp.obj",
+			"Parkour.init.gen.cpp.obj",
+			"ParkourGameInstance.gen.cpp.obj",
+			"ParkourGamemode.gen.cpp.obj",
+			"StartGate.gen.cpp.obj"
 		]
 	}
 }

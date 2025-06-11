@@ -17,9 +17,13 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class AParkourGamemode *********************************************************
+#define FID_Projekty_cpp_proj_Parkour_Source_Parkour_ParkourGamemode_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execOnEscapePressed);
+
+
 PARKOUR_API UClass* Z_Construct_UClass_AParkourGamemode_NoRegister();
 
-#define FID_Projekty_cpp_proj_Parkour_Source_Parkour_ParkourGamemode_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_Projekty_cpp_proj_Parkour_Source_Parkour_ParkourGamemode_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAParkourGamemode(); \
 	friend struct Z_Construct_UClass_AParkourGamemode_Statics; \
@@ -30,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AParkourGamemode)
 
 
-#define FID_Projekty_cpp_proj_Parkour_Source_Parkour_ParkourGamemode_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_Projekty_cpp_proj_Parkour_Source_Parkour_ParkourGamemode_h_14_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AParkourGamemode(AParkourGamemode&&) = delete; \
 	AParkourGamemode(const AParkourGamemode&) = delete; \
@@ -40,12 +44,13 @@ public: \
 	NO_API virtual ~AParkourGamemode();
 
 
-#define FID_Projekty_cpp_proj_Parkour_Source_Parkour_ParkourGamemode_h_14_PROLOG
-#define FID_Projekty_cpp_proj_Parkour_Source_Parkour_ParkourGamemode_h_17_GENERATED_BODY \
+#define FID_Projekty_cpp_proj_Parkour_Source_Parkour_ParkourGamemode_h_11_PROLOG
+#define FID_Projekty_cpp_proj_Parkour_Source_Parkour_ParkourGamemode_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Projekty_cpp_proj_Parkour_Source_Parkour_ParkourGamemode_h_17_INCLASS_NO_PURE_DECLS \
-	FID_Projekty_cpp_proj_Parkour_Source_Parkour_ParkourGamemode_h_17_ENHANCED_CONSTRUCTORS \
+	FID_Projekty_cpp_proj_Parkour_Source_Parkour_ParkourGamemode_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Projekty_cpp_proj_Parkour_Source_Parkour_ParkourGamemode_h_14_INCLASS_NO_PURE_DECLS \
+	FID_Projekty_cpp_proj_Parkour_Source_Parkour_ParkourGamemode_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

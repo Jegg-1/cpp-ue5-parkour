@@ -1,16 +1,13 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameCharacter.h"
+#include "ParkourGameInstance.h"
 #include "FPSCharacter.h"
+#include "Kismet/GameplayStatics.h"
 #include "GameFramework/GameModeBase.h"
 #include "ParkourGamemode.generated.h"
 
-/**
- * 
- */
+
 UCLASS()
 class PARKOUR_API AParkourGamemode : public AGameModeBase
 {
@@ -18,4 +15,20 @@ class PARKOUR_API AParkourGamemode : public AGameModeBase
 	
 public:
 	AParkourGamemode();
+
+	void BeginPlay() override;
+	void StartParkour();
+	void EndParkour();
+	float GetParkourTime() const;
+
+protected:
+
+	virtual void SetupInput();
+
+	UFUNCTION()
+	void OnEscapePressed();
+
+private:
+	float StartTime = 0.0f;
+	float EndTime = 0.0f;
 };
