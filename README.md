@@ -6,13 +6,16 @@ This is my first project in Unreal Engine 5. It's a simple parkour-style game wh
 
 The project focuses on basic gameplay mechanics and a simple UI system. I aimed to implement as much of the functionality as possible in C++ since this was a university project for a C++ course.
 
+![Gameplay](Media/gameplay.gif)
+
 # Usage
-### 1. Download release
-### 2. Extract the ZIP file
-### 3. Launch: ```Parkour.exe```
+1. Download release
+2. Extract the ZIP file
+3. Launch: ```Parkour.exe```
 
 ### Controls:
 
 - `W`, `A`, `S`, `D` – Move  
 - `Space` – Jump  
 - `Mouse` – Look around
+- `Escape` - Return to Menu
